@@ -59,4 +59,12 @@ function fibonacciArray(n) {
 var result = fibonacciArray(10);
 console.log(result); // we expect back [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
+//calculates a dice roll 1-6
+function d6() {
+    var roll = Math.floor(Math.random() *6) + 1;
+    return roll;
+}
+    
+var playerRoll = d6();
+console.log("The player rolled: " + playerRoll);
 
